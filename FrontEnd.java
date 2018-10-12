@@ -116,9 +116,7 @@ public class FrontEnd {
 		int max = 99999;
 		int serviceNum = FrontEnd.getInt(min, prompt, max);
 		prompt = "Number of tickets: ";
-		min = 1;
-		max = 1000;
-		int ticketNum = FrontEnd.getInt(min, prompt, max);
+		int ticketNum = FrontEnd.getInt(1, prompt, 1000);
 		System.out.println("out of sellticket");
 		SELLTICKET = false;
 	}
