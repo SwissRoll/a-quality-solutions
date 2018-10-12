@@ -117,7 +117,7 @@ public class FrontEnd {
 		int serviceNum = FrontEnd.getInt(min, prompt, max);
 		prompt = "Number of tickets: ";
 		int ticketNum = FrontEnd.getInt(1, prompt, 1000);
-		String transaction = "SEL " + serviceNum + " " + ticketNum + " 00000 **** YYMMDD";
+		String transaction = "SEL " + serviceNum + " " + ticketNum + " 00000 **** YYYYMMDD";
 		System.out.println("out of sellticket");
 		SELLTICKET = false;
 	}
